@@ -1,0 +1,239 @@
+[19:30:17] [SERVER-INIT] Contest Server listening on port 8080
+[19:30:17] [SERVER-INIT] Max Parallel Evaluator Semaphores: 2
+[19:30:17] [SERVER-INIT] System Resources: CPU=4, MEM=4
+[19:30:17] [SERVER-INIT] Ready to accept concurrent student connections...
+
+[19:30:18] [MASTER-THREAD] Incoming client connected. Creating dedicated worker thread...
+[19:30:18] [MASTER-THREAD] Incoming client connected. Creating dedicated worker thread...
+[19:30:18] [THREAD-WORKER] Spawned dedicated worker thread for client socket.
+[19:30:18] [MASTER-THREAD] Incoming client connected. Creating dedicated worker thread...
+[19:30:18] [THREAD-WORKER] Spawned dedicated worker thread for client socket.
+[19:30:18] [MASTER-THREAD] Incoming client connected. Creating dedicated worker thread...
+[19:30:18] [THREAD-WORKER] Spawned dedicated worker thread for client socket.
+[19:30:18] [THREAD-WORKER] Spawned dedicated worker thread for client socket.
+[19:30:18] [AUTH] Participant authenticated: [Malvika_Saxena]
+[19:30:18] [AUTH] Participant authenticated: [Ayushi_Tripathi]
+[19:30:18] [AUTH] Participant authenticated: [Akriti_Singh]
+[19:30:18] [AUTH] Participant authenticated: [Avni_Bansal]
+[19:30:19] [SCHEDULER] Scheduling submission #1 by [Malvika_Saxena] using FCFS Priority Queue.
+[19:30:19] [SEMAPHORE] Waiting for evaluator slot... (Max concurrent: 2)
+[19:30:19] [SCHEDULER] Scheduling submission #2 by [Ayushi_Tripathi] using FCFS Priority Queue.
+[19:30:19] [SCHEDULER] Scheduling submission #3 by [Akriti_Singh] using FCFS Priority Queue.
+[19:30:19] [SEMAPHORE] Slot acquired by [Malvika_Saxena]. Starting compilation...
+[19:30:19] [SEMAPHORE] Waiting for evaluator slot... (Max concurrent: 2)
+[19:30:19] [SEMAPHORE] Slot acquired by [Ayushi_Tripathi]. Starting compilation...
+[19:30:19] [SEMAPHORE] Waiting for evaluator slot... (Max concurrent: 2)
+[19:30:19] [BANKER-SAFE] Allocated to [Malvika_Saxena]: (CPU=2, MEM=2) | Remaining Available: (CPU=2, MEM=2) [State: SAFE]
+[19:30:19] [SCHEDULER] Scheduling submission #4 by [Avni_Bansal] using FCFS Priority Queue.
+[19:30:19] [SEMAPHORE] Waiting for evaluator slot... (Max concurrent: 2)
+[19:30:19] [BANKER-SAFE] Allocated to [Ayushi_Tripathi]: (CPU=2, MEM=1) | Remaining Available: (CPU=0, MEM=1) [State: SAFE]
+[19:30:19] [CPU-EXEC] Executing testcases for problem 'Producer-Consumer Synchronization (Medium)'...
+[19:30:19] [CPU-EXEC] Executing testcases for problem 'Banker's Algorithm Deadlock Detection (Hard)'...
+[19:30:20] [CRITICAL-SEC] Locking leaderboard_mutex to update scores...
+[19:30:20] [CRITICAL-SEC] Locking leaderboard_mutex to update scores...
+[19:30:20] [SCORE-UPDATE] Participant [Ayushi_Tripathi] awarded 30 pts! Total Score: 30
+[19:30:20] [CRITICAL-SEC] Unlocked leaderboard_mutex.
+[19:30:20] [BANKER-FREE] Released: (CPU=2, MEM=1) | Current Available: (CPU=2, MEM=2)
+[19:30:20] [SCORE-UPDATE] Participant [Malvika_Saxena] awarded 50 pts! Total Score: 50
+[19:30:20] [CRITICAL-SEC] Unlocked leaderboard_mutex.
+[19:30:20] [BANKER-FREE] Released: (CPU=2, MEM=2) | Current Available: (CPU=4, MEM=4)
+[19:30:20] [SEMAPHORE] Evaluator slot released by [Ayushi_Tripathi].
+[19:30:20] [SEMAPHORE] Slot acquired by [Akriti_Singh]. Starting compilation...
+[19:30:20] [SEMAPHORE] Evaluator slot released by [Malvika_Saxena].
+[19:30:20] [SEMAPHORE] Slot acquired by [Avni_Bansal]. Starting compilation...
+[19:30:20] [BANKER-SAFE] Allocated to [Akriti_Singh]: (CPU=1, MEM=1) | Remaining Available: (CPU=3, MEM=3) [State: SAFE]
+[19:30:20] [THREAD-WORKER] Client disconnected [Ayushi_Tripathi]. Worker thread exiting.
+[19:30:20] [THREAD-WORKER] Client disconnected [Malvika_Saxena]. Worker thread exiting.
+[19:30:20] [CPU-EXEC] Executing testcases for problem 'Reverse Array (Easy)'...
+[19:30:20] [BANKER-SAFE] Allocated to [Avni_Bansal]: (CPU=1, MEM=1) | Remaining Available: (CPU=2, MEM=2) [State: SAFE]
+[19:30:20] [CPU-EXEC] Executing testcases for problem 'Reverse Array (Easy)'...
+[19:30:21] [CRITICAL-SEC] Locking leaderboard_mutex to update scores...
+[19:30:21] [CRITICAL-SEC] Locking leaderboard_mutex to update scores...
+[19:30:21] [SCORE-UPDATE] Participant [Akriti_Singh] awarded 20 pts! Total Score: 20
+[19:30:21] [CRITICAL-SEC] Unlocked leaderboard_mutex.
+[19:30:21] [SCORE-UPDATE] Participant [Avni_Bansal] awarded 20 pts! Total Score: 20
+[19:30:21] [CRITICAL-SEC] Unlocked leaderboard_mutex.
+[19:30:21] [BANKER-FREE] Released: (CPU=1, MEM=1) | Current Available: (CPU=3, MEM=3)
+[19:30:21] [SEMAPHORE] Evaluator slot released by [Akriti_Singh].
+[19:30:21] [BANKER-FREE] Released: (CPU=1, MEM=1) | Current Available: (CPU=4, MEM=4)
+[19:30:21] [SEMAPHORE] Evaluator slot released by [Avni_Bansal].
+[19:30:21] [THREAD-WORKER] Client disconnected [Akriti_Singh]. Worker thread exiting.
+[19:30:21] [SCHEDULER] Scheduling submission #5 by [Avni_Bansal] using FCFS Priority Queue.
+[19:30:21] [SEMAPHORE] Waiting for evaluator slot... (Max concurrent: 2)
+[19:30:21] [SEMAPHORE] Slot acquired by [Avni_Bansal]. Starting compilation...
+[19:30:21] [BANKER-SAFE] Allocated to [Avni_Bansal]: (CPU=2, MEM=1) | Remaining Available: (CPU=2, MEM=3) [State: SAFE]
+[19:30:21] [CPU-EXEC] Executing testcases for problem 'Producer-Consumer Synchronization (Medium)'...
+[19:30:22] [CRITICAL-SEC] Locking leaderboard_mutex to update scores...
+[19:30:22] [SCORE-UPDATE] Participant [Avni_Bansal] awarded 30 pts! Total Score: 50
+[19:30:22] [CRITICAL-SEC] Unlocked leaderboard_mutex.
+[19:30:22] [BANKER-FREE] Released: (CPU=2, MEM=1) | Current Available: (CPU=4, MEM=4)
+[19:30:22] [SEMAPHORE] Evaluator slot released by [Avni_Bansal].
+[19:30:22] [THREAD-WORKER] Client disconnected [Avni_Bansal]. Worker thread exiting.
+[19:30:23] [MASTER-THREAD] Incoming client connected. Creating dedicated worker thread...
+[19:30:23] [THREAD-WORKER] Spawned dedicated worker thread for client socket.
+[19:30:23] [AUTH] Participant authenticated: [Admin_Viewer]
+[19:30:23] [THREAD-WORKER] Client disconnected [Admin_Viewer]. Worker thread exiting.
+[19:32:16] [SERVER-INIT] Contest Server listening on port 8080
+[19:32:16] [SERVER-INIT] Max Parallel Evaluator Semaphores: 2
+[19:32:16] [SERVER-INIT] System Resources: CPU=4, MEM=4
+[19:32:16] [SERVER-INIT] Ready to accept concurrent student connections...
+
+[19:32:18] [MASTER-THREAD] Incoming client connected. Creating dedicated worker thread...
+[19:32:18] [MASTER-THREAD] Incoming client connected. Creating dedicated worker thread...
+[19:32:18] [THREAD-WORKER] Spawned dedicated worker thread for client socket.
+[19:32:18] [MASTER-THREAD] Incoming client connected. Creating dedicated worker thread...
+[19:32:18] [THREAD-WORKER] Spawned dedicated worker thread for client socket.
+[19:32:18] [AUTH] Participant authenticated: [Ayushi_Tripathi]
+[19:32:18] [MASTER-THREAD] Incoming client connected. Creating dedicated worker thread...
+[19:32:18] [THREAD-WORKER] Spawned dedicated worker thread for client socket.
+[19:32:18] [AUTH] Participant authenticated: [Akriti_Singh]
+[19:32:18] [THREAD-WORKER] Spawned dedicated worker thread for client socket.
+[19:32:18] [AUTH] Participant authenticated: [Malvika_Saxena]
+[19:32:18] [AUTH] Participant authenticated: [Avni_Bansal]
+[19:32:18] [SCHEDULER] Scheduling submission #1 by [Ayushi_Tripathi] using FCFS Priority Queue.
+[19:32:18] [SEMAPHORE] Waiting for evaluator slot... (Max concurrent: 2)
+[19:32:18] [SEMAPHORE] Slot acquired by [Ayushi_Tripathi]. Starting compilation...
+[19:32:18] [SCHEDULER] Scheduling submission #2 by [Akriti_Singh] using FCFS Priority Queue.
+[19:32:18] [SCHEDULER] Scheduling submission #3 by [Malvika_Saxena] using FCFS Priority Queue.
+[19:32:18] [SEMAPHORE] Waiting for evaluator slot... (Max concurrent: 2)
+[19:32:18] [BANKER-SAFE] Allocated to [Ayushi_Tripathi]: (CPU=2, MEM=1) | Remaining Available: (CPU=2, MEM=3) [State: SAFE]
+[19:32:18] [SEMAPHORE] Waiting for evaluator slot... (Max concurrent: 2)
+[19:32:18] [SCHEDULER] Scheduling submission #4 by [Avni_Bansal] using FCFS Priority Queue.
+[19:32:18] [SEMAPHORE] Slot acquired by [Akriti_Singh]. Starting compilation...
+[19:32:18] [CPU-EXEC] Executing testcases for problem 'Producer-Consumer Synchronization (Medium)'...
+[19:32:18] [SEMAPHORE] Waiting for evaluator slot... (Max concurrent: 2)
+[19:32:18] [BANKER-SAFE] Allocated to [Akriti_Singh]: (CPU=1, MEM=1) | Remaining Available: (CPU=1, MEM=2) [State: SAFE]
+[19:32:18] [CPU-EXEC] Executing testcases for problem 'Reverse Array (Easy)'...
+[19:32:19] [CRITICAL-SEC] Locking leaderboard_mutex to update scores...
+[19:32:19] [CRITICAL-SEC] Locking leaderboard_mutex to update scores...
+[19:32:19] [SCORE-UPDATE] Participant [Ayushi_Tripathi] awarded 30 pts! Total Score: 30
+[19:32:19] [CRITICAL-SEC] Unlocked leaderboard_mutex.
+[19:32:19] [BANKER-FREE] Released: (CPU=2, MEM=1) | Current Available: (CPU=3, MEM=3)
+[19:32:19] [SCORE-UPDATE] Participant [Akriti_Singh] awarded 20 pts! Total Score: 20
+[19:32:19] [SEMAPHORE] Evaluator slot released by [Ayushi_Tripathi].
+[19:32:19] [SEMAPHORE] Slot acquired by [Malvika_Saxena]. Starting compilation...
+[19:32:19] [CRITICAL-SEC] Unlocked leaderboard_mutex.
+[19:32:19] [BANKER-SAFE] Allocated to [Malvika_Saxena]: (CPU=2, MEM=2) | Remaining Available: (CPU=1, MEM=1) [State: SAFE]
+[19:32:19] [THREAD-WORKER] Client disconnected [Ayushi_Tripathi]. Worker thread exiting.
+[19:32:19] [CPU-EXEC] Executing testcases for problem 'Banker's Algorithm Deadlock Detection (Hard)'...
+[19:32:19] [BANKER-FREE] Released: (CPU=1, MEM=1) | Current Available: (CPU=2, MEM=2)
+[19:32:19] [SEMAPHORE] Evaluator slot released by [Akriti_Singh].
+[19:32:19] [SEMAPHORE] Slot acquired by [Avni_Bansal]. Starting compilation...
+[19:32:19] [BANKER-SAFE] Allocated to [Avni_Bansal]: (CPU=1, MEM=1) | Remaining Available: (CPU=1, MEM=1) [State: SAFE]
+[19:32:19] [THREAD-WORKER] Client disconnected [Akriti_Singh]. Worker thread exiting.
+[19:32:19] [CPU-EXEC] Executing testcases for problem 'Reverse Array (Easy)'...
+[19:32:20] [CRITICAL-SEC] Locking leaderboard_mutex to update scores...
+[19:32:20] [CRITICAL-SEC] Locking leaderboard_mutex to update scores...
+[19:32:20] [SCORE-UPDATE] Participant [Avni_Bansal] awarded 20 pts! Total Score: 20
+[19:32:20] [CRITICAL-SEC] Unlocked leaderboard_mutex.
+[19:32:20] [SCORE-UPDATE] Participant [Malvika_Saxena] awarded 50 pts! Total Score: 50
+[19:32:20] [CRITICAL-SEC] Unlocked leaderboard_mutex.
+[19:32:20] [BANKER-FREE] Released: (CPU=1, MEM=1) | Current Available: (CPU=2, MEM=2)
+[19:32:20] [SEMAPHORE] Evaluator slot released by [Avni_Bansal].
+[19:32:20] [BANKER-FREE] Released: (CPU=2, MEM=2) | Current Available: (CPU=4, MEM=4)
+[19:32:20] [SEMAPHORE] Evaluator slot released by [Malvika_Saxena].
+[19:32:20] [THREAD-WORKER] Client disconnected [Malvika_Saxena]. Worker thread exiting.
+[19:32:20] [SCHEDULER] Scheduling submission #5 by [Avni_Bansal] using FCFS Priority Queue.
+[19:32:20] [SEMAPHORE] Waiting for evaluator slot... (Max concurrent: 2)
+[19:32:20] [SEMAPHORE] Slot acquired by [Avni_Bansal]. Starting compilation...
+[19:32:20] [BANKER-SAFE] Allocated to [Avni_Bansal]: (CPU=2, MEM=1) | Remaining Available: (CPU=2, MEM=3) [State: SAFE]
+[19:32:20] [CPU-EXEC] Executing testcases for problem 'Producer-Consumer Synchronization (Medium)'...
+[19:32:21] [CRITICAL-SEC] Locking leaderboard_mutex to update scores...
+[19:32:21] [SCORE-UPDATE] Participant [Avni_Bansal] awarded 30 pts! Total Score: 50
+[19:32:21] [CRITICAL-SEC] Unlocked leaderboard_mutex.
+[19:32:21] [BANKER-FREE] Released: (CPU=2, MEM=1) | Current Available: (CPU=4, MEM=4)
+[19:32:21] [SEMAPHORE] Evaluator slot released by [Avni_Bansal].
+[19:32:21] [THREAD-WORKER] Client disconnected [Avni_Bansal]. Worker thread exiting.
+[19:32:22] [MASTER-THREAD] Incoming client connected. Creating dedicated worker thread...
+[19:32:22] [THREAD-WORKER] Spawned dedicated worker thread for client socket.
+[19:32:22] [AUTH] Participant authenticated: [Admin_Viewer]
+[19:32:22] [THREAD-WORKER] Client disconnected [Admin_Viewer]. Worker thread exiting.
+[19:42:04] [SYS-BOOT] Contest server booted successfully on port 8080.
+[19:42:06] [AUTH] Authenticated user: [Akriti_Singh] with token: AUTH_Akriti_Singh_11126
+[19:42:06] [AUTH] Authenticated user: [Avni_Bansal] with token: AUTH_Avni_Bansal_11126
+[19:42:06] [AUTH] Authenticated user: [Ayushi_Tripathi] with token: AUTH_Ayushi_Tripathi_11126
+[19:42:06] [AUTH] Authenticated user: [Malvika_Saxena] with token: AUTH_Malvika_Saxena_11126
+[19:42:06] [SCHEDULER] Enqueued Task #1001 for [Akriti_Singh]
+[19:42:06] [DEADLOCK-SAFE] Resources allocated to [Akriti_Singh]
+[19:42:06] [SCHEDULER] Enqueued Task #1002 for [Avni_Bansal]
+[19:42:06] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[19:42:06] [SCHEDULER] Enqueued Task #1003 for [Ayushi_Tripathi]
+[19:42:06] [SCHEDULER] Enqueued Task #1004 for [Malvika_Saxena]
+[19:42:07] [SCORE] User [Akriti_Singh] updated score to 20
+[19:42:07] [SCORE] User [Avni_Bansal] updated score to 20
+[19:42:07] [DEADLOCK-SAFE] Resources allocated to [Ayushi_Tripathi]
+[19:42:07] [DEADLOCK-SAFE] Resources allocated to [Malvika_Saxena]
+[19:42:07] [SCHEDULER] Enqueued Task #1005 for [Avni_Bansal]
+[19:42:08] [SCORE] User [Ayushi_Tripathi] updated score to 30
+[19:42:08] [SCORE] User [Malvika_Saxena] updated score to 50
+[19:42:08] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[19:42:09] [SCORE] User [Avni_Bansal] updated score to 50
+[19:42:10] [AUTH] Authenticated user: [Admin_Viewer] with token: AUTH_Admin_Viewer_11130
+[19:42:28] [SYS-BOOT] Contest server booted successfully on port 8080.
+[19:42:30] [AUTH] Authenticated user: [Ayushi_Tripathi] with token: AUTH_Ayushi_Tripathi_11150
+[19:42:30] [AUTH] Authenticated user: [Akriti_Singh] with token: AUTH_Akriti_Singh_11150
+[19:42:30] [AUTH] Authenticated user: [Avni_Bansal] with token: AUTH_Avni_Bansal_11150
+[19:42:30] [AUTH] Authenticated user: [Malvika_Saxena] with token: AUTH_Malvika_Saxena_11150
+[19:42:30] [SCHEDULER] Enqueued Task #1001 for [Akriti_Singh]
+[19:42:30] [SCHEDULER] Enqueued Task #1002 for [Ayushi_Tripathi]
+[19:42:30] [DEADLOCK-SAFE] Resources allocated to [Akriti_Singh]
+[19:42:30] [SCHEDULER] Enqueued Task #1003 for [Avni_Bansal]
+[19:42:30] [SCHEDULER] Enqueued Task #1004 for [Malvika_Saxena]
+[19:42:30] [DEADLOCK-SAFE] Resources allocated to [Ayushi_Tripathi]
+[19:42:31] [SCORE] User [Ayushi_Tripathi] updated score to 30
+[19:42:31] [SCORE] User [Akriti_Singh] updated score to 20
+[19:42:31] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[19:42:31] [DEADLOCK-SAFE] Resources allocated to [Malvika_Saxena]
+[19:42:32] [SCORE] User [Avni_Bansal] updated score to 20
+[19:42:32] [SCORE] User [Malvika_Saxena] updated score to 50
+[19:42:32] [SCHEDULER] Enqueued Task #1005 for [Avni_Bansal]
+[19:42:32] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[19:42:33] [SCORE] User [Avni_Bansal] updated score to 50
+[19:42:34] [AUTH] Authenticated user: [Admin_Viewer] with token: AUTH_Admin_Viewer_11154
+[19:44:35] [SYS-BOOT] Contest server booted successfully on port 8080.
+[19:44:36] [AUTH] Authenticated user: [Akriti_Singh] with token: AUTH_Akriti_Singh_11276
+[19:44:36] [AUTH] Authenticated user: [Malvika_Saxena] with token: AUTH_Malvika_Saxena_11276
+[19:44:36] [AUTH] Authenticated user: [Ayushi_Tripathi] with token: AUTH_Ayushi_Tripathi_11276
+[19:44:36] [AUTH] Authenticated user: [Avni_Bansal] with token: AUTH_Avni_Bansal_11276
+[19:44:37] [SCHEDULER] Enqueued Task #1001 for [Akriti_Singh]
+[19:44:37] [SCHEDULER] Enqueued Task #1004 for [Avni_Bansal]
+[19:44:37] [SCHEDULER] Enqueued Task #1003 for [Ayushi_Tripathi]
+[19:44:37] [SCHEDULER] Enqueued Task #1002 for [Malvika_Saxena]
+[19:44:37] [DEADLOCK-SAFE] Resources allocated to [Akriti_Singh]
+[19:44:37] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[19:44:38] [SCORE] User [Akriti_Singh] updated score to 20
+[19:44:38] [SCORE] User [Avni_Bansal] updated score to 20
+[19:44:38] [DEADLOCK-SAFE] Resources allocated to [Ayushi_Tripathi]
+[19:44:38] [DEADLOCK-SAFE] Resources allocated to [Malvika_Saxena]
+[19:44:38] [SCHEDULER] Enqueued Task #1005 for [Avni_Bansal]
+[19:44:39] [SCORE] User [Malvika_Saxena] updated score to 50
+[19:44:39] [SCORE] User [Ayushi_Tripathi] updated score to 30
+[19:44:39] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[19:44:40] [SCORE] User [Avni_Bansal] updated score to 50
+[19:44:41] [AUTH] Authenticated user: [Admin_Viewer] with token: AUTH_Admin_Viewer_11281
+[19:48:22] [SYS-BOOT] Contest server booted successfully on port 8080.
+[19:48:24] [AUTH] Authenticated user: [Ayushi_Tripathi] with token: AUTH_Ayushi_Tripathi_11504
+[19:48:24] [AUTH] Authenticated user: [Avni_Bansal] with token: AUTH_Avni_Bansal_11504
+[19:48:24] [AUTH] Authenticated user: [Akriti_Singh] with token: AUTH_Akriti_Singh_11504
+[19:48:24] [AUTH] Authenticated user: [Malvika_Saxena] with token: AUTH_Malvika_Saxena_11504
+[19:48:24] [SCHEDULER] Enqueued Task #1001 for [Ayushi_Tripathi]
+[19:48:24] [DEADLOCK-SAFE] Resources allocated to [Ayushi_Tripathi]
+[19:48:24] [SCHEDULER] Enqueued Task #1002 for [Avni_Bansal]
+[19:48:24] [SCHEDULER] Enqueued Task #1003 for [Akriti_Singh]
+[19:48:24] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[19:48:24] [SCHEDULER] Enqueued Task #1004 for [Malvika_Saxena]
+[19:48:25] [SCORE] User [Ayushi_Tripathi] updated score to 30
+[19:48:25] [DEADLOCK-SAFE] Resources allocated to [Akriti_Singh]
+[19:48:25] [SCORE] User [Avni_Bansal] updated score to 20
+[19:48:25] [DEADLOCK-SAFE] Resources allocated to [Malvika_Saxena]
+[19:48:25] [SCHEDULER] Enqueued Task #1005 for [Avni_Bansal]
+[19:48:26] [SCORE] User [Akriti_Singh] updated score to 20
+[19:48:26] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[19:48:26] [SCORE] User [Malvika_Saxena] updated score to 50
+[19:48:27] [SCORE] User [Avni_Bansal] updated score to 50
+[19:48:28] [AUTH] Authenticated user: [Admin_Viewer] with token: AUTH_Admin_Viewer_11508
+[19:50:43] [SYS-BOOT] Contest server booted successfully on port 8080.
+[19:51:09] [AUTH] Authenticated user: [Malvika] with token: AUTH_Malvika_11669
+[19:52:08] [SCHEDULER] Enqueued Task #1001 for [Malvika]
+[19:52:08] [DEADLOCK-SAFE] Resources allocated to [Malvika]
+[19:52:09] [SCORE] User [Malvika] updated score to 20

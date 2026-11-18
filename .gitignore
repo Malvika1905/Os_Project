@@ -1,0 +1,13 @@
+# Build artifacts & executables
+*.exe
+*.o
+*.obj
+a.out
+
+# Temporary test files
+test_*.cpp
+test_*.exe
+
+# IDE configs
+.vscode/
+.idea/
