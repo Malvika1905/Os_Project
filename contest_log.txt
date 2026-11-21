@@ -237,3 +237,75 @@
 [19:52:08] [SCHEDULER] Enqueued Task #1001 for [Malvika]
 [19:52:08] [DEADLOCK-SAFE] Resources allocated to [Malvika]
 [19:52:09] [SCORE] User [Malvika] updated score to 20
+[21:56:31] [SYS-BOOT] Contest server booted successfully on port 8080.
+[21:56:32] [AUTH] Authenticated user: [Akriti_Singh] with token: AUTH_Akriti_Singh_78392
+[21:56:32] [AUTH] Authenticated user: [Ayushi_Tripathi] with token: AUTH_Ayushi_Tripathi_78392
+[21:56:32] [AUTH] Authenticated user: [Avni_Bansal] with token: AUTH_Avni_Bansal_78392
+[21:56:32] [AUTH] Authenticated user: [Malvika_Saxena] with token: AUTH_Malvika_Saxena_78392
+[21:56:32] [SCHEDULER] Enqueued Task #1001 for [Akriti_Singh]
+[21:56:32] [DEADLOCK-SAFE] Resources allocated to [Akriti_Singh]
+[21:56:32] [SCHEDULER] Enqueued Task #1002 for [Avni_Bansal]
+[21:56:32] [SCHEDULER] Enqueued Task #1003 for [Malvika_Saxena]
+[21:56:32] [SCHEDULER] Enqueued Task #1004 for [Ayushi_Tripathi]
+[21:56:32] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[21:56:33] [SCORE] User [Akriti_Singh] updated score to 20
+[21:56:33] [SCORE] User [Avni_Bansal] updated score to 20
+[21:56:33] [DEADLOCK-SAFE] Resources allocated to [Malvika_Saxena]
+[21:56:33] [DEADLOCK-SAFE] Resources allocated to [Ayushi_Tripathi]
+[21:56:34] [SCHEDULER] Enqueued Task #1005 for [Avni_Bansal]
+[21:56:34] [SCORE] User [Ayushi_Tripathi] updated score to 30
+[21:56:34] [SCORE] User [Malvika_Saxena] updated score to 50
+[21:56:34] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[21:56:35] [SCORE] User [Avni_Bansal] updated score to 50
+[21:56:36] [AUTH] Authenticated user: [Admin_Viewer] with token: AUTH_Admin_Viewer_78396
+[21:59:45] [SYS-BOOT] Contest server booted successfully on port 8080.
+[22:00:12] [AUTH] Authenticated user: [992401030325] with token: AUTH_992401030325_78612
+[22:01:59] [SCHEDULER] Enqueued Task #1001 for [992401030325]
+[22:01:59] [DEADLOCK-SAFE] Resources allocated to [992401030325]
+[22:02:00] [SCORE] User [992401030325] updated score to 0
+[22:10:44] [AUTH] Authenticated user: [992401030325] with token: AUTH_992401030325_79244
+[22:12:51] [AUTH] Authenticated user: [992401030325] with token: AUTH_992401030325_79371
+[22:13:17] [SCHEDULER] Enqueued Task #1002 for [992401030325]
+[22:13:17] [DEADLOCK-SAFE] Resources allocated to [992401030325]
+[22:13:18] [SCORE] User [992401030325] updated score to 30
+[22:13:35] [AUTH] Authenticated user: [99240103032] with token: AUTH_99240103032_79415
+[22:14:21] [AUTH] Authenticated user: [992401030302] with token: AUTH_992401030302_79461
+[22:14:59] [AUTH] Authenticated user: [992401030302] with token: AUTH_992401030302_79499
+[22:15:13] [SCHEDULER] Enqueued Task #1003 for [992401030302]
+[22:15:13] [DEADLOCK-SAFE] Resources allocated to [992401030302]
+[22:15:15] [SCORE] User [992401030302] updated score to 30
+[22:16:55] [SYS-BOOT] Contest server booted successfully on port 8080.
+[22:16:56] [AUTH] Authenticated user: [Malvika] with token: AUTH_Malvika_79616
+[22:16:56] [SCHEDULER] Enqueued Task #1001 for [Malvika]
+[22:16:56] [DEADLOCK-SAFE] Resources allocated to [Malvika]
+[22:16:57] [SCORE] User [Malvika] updated score to 20
+[22:17:19] [SYS-BOOT] Contest server booted successfully on port 8080.
+[22:17:20] [AUTH] Authenticated user: [Malvika] with token: AUTH_Malvika_79640
+[22:18:16] [SYS-BOOT] Contest server booted successfully on port 8080.
+[22:18:17] [AUTH] Authenticated user: [Malvika] with token: AUTH_Malvika_79697
+[22:18:32] [SYS-BOOT] Contest server booted successfully on port 8080.
+[22:18:33] [AUTH] Authenticated user: [Malvika] with token: AUTH_Malvika_79713
+[22:18:33] [SCHEDULER] Enqueued Task #1001 for [Malvika]
+[22:18:33] [DEADLOCK-SAFE] Resources allocated to [Malvika]
+[22:18:34] [SCORE] User [Malvika] updated score to 20
+[22:18:51] [SYS-BOOT] Contest server booted successfully on port 8080.
+[22:18:52] [AUTH] Authenticated user: [Akriti_Singh] with token: AUTH_Akriti_Singh_79732
+[22:18:52] [AUTH] Authenticated user: [Avni_Bansal] with token: AUTH_Avni_Bansal_79732
+[22:18:52] [AUTH] Authenticated user: [Ayushi_Tripathi] with token: AUTH_Ayushi_Tripathi_79732
+[22:18:52] [AUTH] Authenticated user: [Malvika_Saxena] with token: AUTH_Malvika_Saxena_79732
+[22:18:52] [SCHEDULER] Enqueued Task #1001 for [Akriti_Singh]
+[22:18:52] [SCHEDULER] Enqueued Task #1002 for [Avni_Bansal]
+[22:18:52] [DEADLOCK-SAFE] Resources allocated to [Akriti_Singh]
+[22:18:52] [SCHEDULER] Enqueued Task #1003 for [Ayushi_Tripathi]
+[22:18:52] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[22:18:52] [SCHEDULER] Enqueued Task #1004 for [Malvika_Saxena]
+[22:18:53] [SCORE] User [Akriti_Singh] updated score to 20
+[22:18:53] [SCORE] User [Avni_Bansal] updated score to 20
+[22:18:53] [DEADLOCK-SAFE] Resources allocated to [Ayushi_Tripathi]
+[22:18:53] [DEADLOCK-SAFE] Resources allocated to [Malvika_Saxena]
+[22:18:54] [SCHEDULER] Enqueued Task #1005 for [Avni_Bansal]
+[22:18:54] [SCORE] User [Ayushi_Tripathi] updated score to 30
+[22:18:54] [SCORE] User [Malvika_Saxena] updated score to 50
+[22:18:54] [DEADLOCK-SAFE] Resources allocated to [Avni_Bansal]
+[22:18:55] [SCORE] User [Avni_Bansal] updated score to 50
+[22:18:56] [AUTH] Authenticated user: [Admin_Viewer] with token: AUTH_Admin_Viewer_79736

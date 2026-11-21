@@ -182,15 +182,32 @@ int main(int argc, char* argv[]) {
             send_line(sock, "LEADERBOARD");
             std::string line;
             while (recv_line(sock, line)) {
+                if (line.find("--- END OF LEADERBOARD ---") != std::string::npos) {
+                    break;
+                }
                 std::cout << line << "\n";
-                if (line.find("=========================================================") != std::string::npos) break;
             }
         }
         else if (choice == 4) {
             send_line(sock, "STATUS");
             std::string status_msg;
-            recv_line(sock, status_msg);
-            std::cout << "\n[MY STATUS]: " << status_msg << "\n";
+            if (recv_line(sock, status_msg)) {
+                std::cout << "\n=======================================================\n";
+                std::cout << "           MY CURRENT SCORE & SOLVED COUNT             \n";
+                std::cout << "=======================================================\n";
+                std::stringstream ss(status_msg);
+                std::string token;
+                while (std::getline(ss, token, '|')) {
+                    size_t s = token.find_first_not_of(" \t");
+                    size_t e = token.find_last_not_of(" \t");
+                    if (s != std::string::npos && e != std::string::npos) {
+                        std::cout << "   * " << token.substr(s, e - s + 1) << "\n";
+                    }
+                }
+                std::cout << "=======================================================\n";
+            } else {
+                std::cout << "[ERROR] Could not retrieve status from server.\n";
+            }
         }
         else if (choice == 5) {
             send_line(sock, "EXIT");

@@ -215,6 +215,7 @@ void on_client_request(ClientSession* session, const std::string& request_line) 
     // Command: LEADERBOARD
     else if (cmd == "LEADERBOARD") {
         std::string board = g_sync_leaderboard->generate_formatted_leaderboard();
+        board += "--- END OF LEADERBOARD ---";
         NetworkEngine::send_string(session->client_socket, board);
     }
     // Command: STATUS
@@ -223,9 +224,16 @@ void on_client_request(ClientSession* session, const std::string& request_line) 
         if (g_sync_leaderboard->get_participant_stats(session->authenticated_user, rec)) {
             std::ostringstream ss;
             ss << "Participant: " << rec.username 
-               << " | Score: " << rec.total_score 
-               << " | Solved: " << rec.solved_problem_ids.size() 
+               << " | Score: " << rec.total_score << " pts"
+               << " | Solved: " << rec.solved_problem_ids.size() << " / " << g_problems_list.size()
                << " | Submissions: " << rec.total_submissions;
+            if (!rec.solved_problem_ids.empty()) {
+                ss << " | Solved Problem IDs: [";
+                for (size_t i = 0; i < rec.solved_problem_ids.size(); ++i) {
+                    ss << rec.solved_problem_ids[i] << (i + 1 < rec.solved_problem_ids.size() ? ", " : "");
+                }
+                ss << "]";
+            }
             NetworkEngine::send_string(session->client_socket, ss.str());
         } else {
             NetworkEngine::send_string(session->client_socket, "404 ERR Participant record not found");
